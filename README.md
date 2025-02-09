@@ -1,27 +1,62 @@
-# FormBuildingApp
+#  Angular Form Builder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+A **drag-and-drop form builder** built using **Angular, Tailwind CSS, and Reactive Forms**. Users can create custom forms dynamically by dragging elements, rearranging them, and configuring properties.
 
-## Development server
+##  Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+-  **Add,Edit,Delete Feild Group**  
+-  **Drag-and-Drop Form Elements**  
+-  **Reorder and Remove Fields**  
+-  **Customizable Field Properties**  
+-  **Validation Handling (Required, Min/Max, etc.)**  
+-  **Save and Load Form Structure**
+-  **Export Form Group**
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Prerequisites
+- Node.js and npm installed
+- Angular CLI installed
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation & Setup
 
-## Running end-to-end tests
+### 1️⃣ Clone the Repository
+git clone https://github.com/brindharamesh28/form-building-app.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+cd form-building-app
 
-## Further help
+### 2️⃣ Install Dependencies
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+npm install
+
+### 3️⃣ Run the Project
+
+   ng serve
+   
+** How It Works**
+
+1.Left panel contains list of form group where as center displays the form group and right panel has the elements
+
+2.Form group label can be edited , deleted and also copied to new form group
+
+3.Drag form elements (text, radio, checkbox, textarea, etc.) to the workspace.
+
+4.Elements can be edited,copied reordered and deleted 
+
+5.Elements label,description,placeholder default value, whether required or not all these options avaiable for edit
+
+6.Listed elements can be viewed in workspace
+
+7.Forms can be exported
+
+Tech Stack
+ 1.Angular (Reactive Forms)
+ 2.Tailwind Css
+ 3.Angular cdk(drag & drop)
+
+
+
+
